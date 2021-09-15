@@ -1,0 +1,19 @@
+* {
+    font-family: 'Raleway';
+}
+
+@font-face {
+    font-family: 'Raleway';
+    font-weight: bold;
+    font-style: normal;
+    src: url('fonts/static/Raleway-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Raleway';
+    font-weight: normal;
+    font-style: normal;
+    src: url('fonts/static/Raleway-Thin.ttf') format('truetype');
+    src: url('fonts/static/Raleway-Light.ttf') format('truetype');
+    src: url('fonts/static/Raleway-Regular.ttf') format('truetype');
+}
