@@ -17,3 +17,44 @@
     src: url('fonts/static/Raleway-Light.ttf') format('truetype');
     src: url('fonts/static/Raleway-Regular.ttf') format('truetype');
 }
+
+body {
+    text-align: justify;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.Titre {
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    width: auto;
+    margin-left: 1000px;
+    font-size: larger;
+}
+
+.Tranché1 {
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+.Tranché2 {
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+.Tranché3 {
+    color: blue;
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+.Tranché1:hover {
+    color: blue;
+}
+
+.Tranché2:hover {
+    color: blue;
+}
