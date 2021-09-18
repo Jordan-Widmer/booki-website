@@ -53,8 +53,12 @@ nav {
 
 .Tranché1:hover {
     color: blue;
+    border-top: solid 2px blue;
+    padding: 13px;
 }
 
 .Tranché2:hover {
     color: blue;
+    border-top: solid 2px blue;
+    padding: 13px;
 }
