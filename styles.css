@@ -62,3 +62,7 @@ nav {
     border-top: solid 2px blue;
     padding: 13px;
 }
+
+.Titre1 {
+    float: inline-start;
+}
