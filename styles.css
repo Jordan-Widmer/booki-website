@@ -22,6 +22,8 @@ body {
     text-align: justify;
     margin-left: 200px;
     margin-right: 200px;
+    position: relative;
+    top: 20px;
 }
 
 .Titre {
@@ -66,5 +68,11 @@ nav {
 }
 
 .Titre1 {
-    float: inline-start;
+    margin-top: 2rem;
 }
+
+.Texte1 {
+    position: relative;
+    bottom: 13px;
+}
+
