@@ -39,6 +39,22 @@ nav {
     bottom: 24px;
 }
 
+.Filtres {
+    position: relative;
+    top: 80px;
+    width: auto;
+}
+
+.Catégorie {
+    margin-top: 100px;
+    margin-left: 180px;
+    font-size: larger;
+    position: relative;
+    bottom: 44.5px;
+    display: flex;
+    font-weight: bold;
+}
+
 .Tranché1 {
     text-decoration: none;
     margin-left: 30px;
@@ -76,5 +92,20 @@ nav {
 .Texte1 {
     position: relative;
     bottom: 13px;
+}
+
+.Familial {
+    position: relative;
+    left: 100px;
+}
+
+.Romantique {
+    position: relative;
+    left: 200px;
+}
+
+.Animaux {
+    position: relative;
+    left: 300px;
 }
 
