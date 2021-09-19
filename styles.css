@@ -78,16 +78,44 @@ nav {
     bottom: 13px;
 }
 
+.Recherche {
+    text-align: justify;
+    display: flex;
+}
+
+.BarreDeRechercheTxT {
+    color: #000;
+    color: rgba(0, 0, 0, 0.3);
+    position: relative;
+    bottom: 25px;
+    left: 2em;
+    border: solid;
+    text-align: center;
+}
+
+.BarreDeRechercheTxT:hover {
+    color:black;
+}
+
+.Rechercher {
+    position: relative;
+    left: 40px;
+    bottom: 25px;
+    border: blue solid;
+}
+
+.fa-map-marker-alt {
+    position: relative;
+}
+
 .Filtres {
     position: relative;
-    top: 80px;
+    top: 10px;
     width: auto;
     position: relative;
-    bottom: 34px;
 }
 
 .Catégorie {
-    margin-top: 90px;
     margin-left: 180px;
     font-size: larger;
     position: relative;
