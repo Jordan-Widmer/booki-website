@@ -87,17 +87,21 @@ input {
 }
 
 button {
-    border: #0065FC;
+    border: none;
     border-radius: 0px 13px 13px 0px;
     background-color: #0065FC;
-    color: white;
-    font-weight: bolder;
-    font-size: large;
     position: relative;
     top: 1.8px;
     left: 35px;
     width: 10em;
     height: 44px;
+    cursor:pointer;
+}
+
+.Rechercher-Text {
+    color: white;
+    font-size: larger;
+    font-weight: bold;
 }
 
 .fa-map-marker-alt {
