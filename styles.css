@@ -52,20 +52,20 @@ nav {
 }
 
 .Tranché3 {
-    color: blue;
+    color: #0065FC;
     text-decoration: none;
     margin-left: 30px;
 }
 
 .Tranché1:hover {
-    color: blue;
-    border-top: solid 3px blue;
+    color: #0065FC;
+    border-top: solid 3px #0065FC;
     padding: 13px;
 }
 
 .Tranché2:hover {
-    color: blue;
-    border-top: solid 3px blue;
+    color: #0065FC;
+    border-top: solid 3px #0065FC;
     padding: 13px;
 }
 
@@ -78,30 +78,26 @@ nav {
     bottom: 13px;
 }
 
-.Recherche {
-    text-align: justify;
-    display: flex;
-}
-
-.BarreDeRechercheTxT {
-    color: #000;
-    color: rgba(0, 0, 0, 0.3);
-    position: relative;
-    bottom: 25px;
-    left: 2em;
-    border: solid;
-    text-align: center;
-}
-
-.BarreDeRechercheTxT:hover {
-    color:black;
-}
-
-.Rechercher {
+input {
+    border: solid 1px #F2F2F2;
     position: relative;
     left: 40px;
-    bottom: 25px;
-    border: blue solid;
+    width: 15%;
+    height: 40px;
+}
+
+button {
+    border: #0065FC;
+    border-radius: 0px 13px 13px 0px;
+    background-color: #0065FC;
+    color: white;
+    font-weight: bolder;
+    font-size: large;
+    position: relative;
+    top: 1.8px;
+    left: 35px;
+    width: 10em;
+    height: 44px;
 }
 
 .fa-map-marker-alt {
@@ -148,7 +144,7 @@ nav {
 .info {
     height: 30px;
     width: 30px;
-    color: blue;
+    color: #0065FC;
     border: solid 2px #d9d9d9;
     border-radius: 50%;
     display: flex;
