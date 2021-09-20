@@ -78,12 +78,22 @@ nav {
     bottom: 13px;
 }
 
+.icon {
+    background-color: #F2F2F2;
+    position: relative;
+    bottom: 1px;
+    padding: 15px 15px;
+    border-radius: 1rem 0 0 1rem;
+    text-align: center;
+}
+
 input {
     border: solid 1px #F2F2F2;
-    position: relative;
-    left: 40px;
-    width: 15%;
-    height: 40px;
+    width: 16%;
+    height: 45px;
+    text-align: center;
+    font-size: large;
+    font-weight: 900;
 }
 
 button {
@@ -91,10 +101,10 @@ button {
     border-radius: 0px 13px 13px 0px;
     background-color: #0065FC;
     position: relative;
-    top: 1.8px;
-    left: 35px;
+    bottom: 0.4px;
+    right: 3.15px;
     width: 10em;
-    height: 44px;
+    height: 49px;
     cursor:pointer;
 }
 
