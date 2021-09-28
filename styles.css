@@ -1,3 +1,5 @@
+/* Police d'écriture */
+
 * {
     font-family: 'Raleway';
 }
@@ -17,3 +19,104 @@
     src: url('fonts/static/Raleway-Light.ttf') format('truetype');
     src: url('fonts/static/Raleway-Regular.ttf') format('truetype');
 }
+
+.reservia-icon {
+    position: relative;
+    top: 10px;
+}
+
+/* Barre de navigation */
+
+.navi-h-a {
+    text-align: justify;
+    text-align: right;
+}
+
+.lien-de-navigation {
+    justify-content: center;
+    font-weight: 500;
+    font-size: 18px;
+    text-decoration: none;
+    position: relative;
+    bottom: 28.8px;
+    right: 30px;
+    padding: 25px;
+    color: black;
+}
+
+.lien-de-navigation:hover {
+    color: #0065FC;
+    border-top: 3px solid #0065FC;
+    position: relative;
+}
+
+.lien-inscription {
+    margin-right: 3em;
+    text-decoration: none;
+    font-weight: bold;
+    color: #0065FC;
+    position: relative;
+    bottom: 28.8px;
+    font-size: 18px;
+}
+
+/* Titre de la page (Trouvez votre hébergement pour des vacances de rêve) */
+
+.titre-principal {
+    margin-top: 15px;
+    font-size: 25px;
+}
+
+/* Sous titre (En plein centre ville ou en pleine nature) */
+
+.header-text {
+    font-size: 18px;
+    position: relative;
+    bottom: 15px;
+}
+
+/* Barre de recherche */
+
+form {
+    display: inline-flex;
+    position: relative;
+    bottom: 14px;
+}
+
+.fa-map-marker-alt {
+    background-color: #F2F2F2;
+    padding: 1.2rem 1.30rem;
+    border-radius: 1rem 0 0 1rem;
+}
+
+input {
+    border-right: none;
+    border-left: none;
+    border-top: #F2F2F2 1px solid;
+    border-bottom: #F2F2F2 1px solid;
+    padding: 0 1rem;
+    width: 14.5rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+button {
+    background-color: #0065FC;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 0 1rem 1rem 0;
+    padding: 0 1.7rem;
+    font-family: "Raleway", "Sans serif";
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
