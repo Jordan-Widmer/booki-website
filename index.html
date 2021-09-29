@@ -4,45 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Reservia</title>
+    <title>Booki</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
 </head>
 <body>
     <!-- Menu du Site -->
     <header>
+        <!-- Logo du Site -->
+        <div class="boldLogo">
+            <img class="logoBooki" src="images/logo/Booki.png" alt="logo de Booki" width="112" height="50">
+        </div>
         <nav>
-            <div>
-                <!-- Logo du Site -->
-                <div class="logo-reservia">
-                    <img src="images/logo/Reservia.svg" alt="logo de Reservia">
-                </div>
-                <!-- Barre de Navigation du Site -->
-                <div class="barre-de-navigation">
-                    <div>
-                        <a class="bdn-hébergements" href="#hébergements">Hébergements</a>
-                    </div>
-                    <div>
-                        <a class="bdn-activités" href="#activités">Activités</a>
-                    </div>
-                </div>
+            <div class="barreDeNavigation">
                 <div>
-                    <div>
-                        <p class="bdn-inscription">S'inscrire</p>
-                    </div>
+                    <a class="bdnHebergements" href="#hebergements">Hébergements</a>
+                </div>                    
+                <div>
+                    <a class="bdnActivites" href="#activites">Activités</a>
                 </div>
             </div>
         </nav>
     </header>
-            <!-- Partie Principale du Site -->  
+    <!-- Partie Principale du Site -->  
     <main>
         <section>
             <div>
-                <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-                <p>En plein centre ville ou en pleine nature</p>
+                <h1 class="premierTitre">Trouvez votre hébergement pour des vacances de rêve</h1>
+                <p class="sousTitre">En plein centre ville ou en pleine nature</p>
             </div>
             <!-- Moteur de recherche du Site -->
-            <form action="barre-de-recherche">
+            <form>
                 <div>
                     <div>
                         <i class="fas fa-map-marker-alt"></i>
@@ -52,49 +44,32 @@
                     <input type="text" class="zoneDeSaisie" placeholder="Marseille, France">
                 </div>
                 <div>
-                    <button class="bouton-de-recherche">Rechercher</button>
+                    <button class="boutonDeRecherche">Rechercher</button>
                 </div>
             </form>
-            <div>
-                <div>
-                    <h3>Filtres</h3>
+            <div class="sectionFiltres">
+                <h2 class="titreFiltres">Filtres</h2>
+                <div class="inlineEco">
+                    <div class="economique"><i class="fas fa-money-bill-wave"></i> Économique</div>
+                </div>
+                <div>      
+                    <div class="familial"><i class="fas fa-child"></i> Familial</div>
                 </div>
                 <div>
-                    <div>
-                        <i class="fas fa-money-bill-wave"></i>
-                        <div>Économique</div>
-                    </div>
+                    <div class="romantique"><i class="fas fa-heart"></i> Romantique</div>
                 </div>
-                <div>
-                    <div>
-                        <i class="fas fa-child"></i>
-                        <div>Familial</div>
-                    </div>
-                </div>
-                <div>
-                    <div>
-                        <i class="fas fa-heart"></i>
-                        <div>Romantique</div>
-                    </div>
-                </div>
-                <div>
-                    <div>
-                        <i class="fas fa-dog"></i>
-                        <div>Animaux autorisés</div>
-                    </div>
+                <div>                  
+                    <div class="animauxAutorisés"><i class="fas fa-dog"></i> Animaux autorisés</div>
                 </div>
             </div>
             <div>
-                <div>
-                    <i class="fas fa-info"></i>
-                </div>
+                <i class="fas fa-info"></i>
                 <p>Plus de 500 logements sont disponibles dans cette ville</p>
             </div>
         </section>
         <!-- Section propre au hébergement à Marseille, ventes de 6 appartements -->
-        <section id="hébergements">
-            <div>
-                <h2>Hébergements à Marseille</h2>
+        <section id="hebergements">
+            <h2>Hébergements à Marseille</h2>
                 <!-- Première ligne -->
                 <div>
                     <article>
@@ -151,9 +126,7 @@
                             </div>
                         </a>
                     </article>
-                </div>
                 <!-- Deuxième ligne  -->
-                <div>
                     <article>
                         <a href="">
                             <div>
@@ -208,9 +181,8 @@
                             </div>
                         </a>
                     </article>
-                </div>
-            </div>
-            <!-- Section prores au hébergement les plus Populaires, ventes de 3 appartements -->
+                </div>     
+                <!-- Section prores au hébergement les plus Populaires, ventes de 3 appartements -->
             <aside>
                 <h2>Les plus populaires</h2>
                 <div>
@@ -272,7 +244,7 @@
             </aside>
         </section>
         <!-- Section des Activités, 6 activités disponibles -->
-        <section id="activités">
+        <section id="activites">
             <h2>Activités à Marseille</h2>
             <div>
                 <article>
@@ -340,38 +312,18 @@
     </main>
     <!-- Pied de page -->
     <footer>
-        <div>
             <div>
                 <h3>A propos</h3>
-                <div>
                     <a href="#">Fonctionnement du site</a>
-                </div>
-                <div>
                     <a href="#">Conditions générales de vente</a>
-                </div>
-                <div>
                     <a href="#">Données et confidentialité</a>
-                </div>
-            </div>
-            <div>
                 <h3>Nos hébergements</h3>
-                <div>
                     <a href="#">Charte qualité</a>
-                </div>
-                <div>
                     <a href="#">Soumettre votre hôtel</a>
-                </div>
-            </div>
-            <div>
                 <h3>Assistance</h3>
-                <div>
                     <a href="#">Centre d'aide</a>
-                </div>
-                <div>
                     <a href="#">Nous contacter</a>
-                </div>
             </div>
-        </div>
     </footer>
     <!-- FIN du Contenue de là page -->
 </body>
