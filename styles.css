@@ -133,7 +133,62 @@ form {
 
 /* Section des Categories de Recherche */
 
+.sectionFiltres {
+    display: flex;
+    text-align: center;
+}
 
+.categories {
+    display: flex;
+    padding-left: 40px;
+    position: relative;
+    top: 1px;
+    font-size: 18px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+}
+
+.economique {
+    display: flex;
+    border: solid 3px #F2F2F2;
+    width: 180px;
+    height: 50px;
+    border-radius: 3em 3em 3em 3em;
+}
+
+.textEco {
+    padding-top: 14px;
+    padding-right: 300px;
+}
+
+.economique:hover {
+    background-color: #DEEBFF;
+}
+
+.fa-money-bill-wave {
+    background-color: #DEEBFF;
+    border-radius: 50px 0 0 50px;
+    margin-right: 10px;
+    padding-right: 14px;
+    padding-left: 14px;
+
+}
+
+.fa-money-bill-wave::before {
+    position: relative;
+    top: 16px;
+}
+
+
+
+
+
+
+
+
+
+    
 
 
 
