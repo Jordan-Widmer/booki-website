@@ -1,5 +1,4 @@
-/* Police d'écriture */
-
+/* Police d'Ecriture */
 * {
     font-family: 'Raleway';
 }
@@ -168,7 +167,6 @@ form {
 
 .economique:hover {
     background-color: #DEEBFF;
-    bouton
 }
 
 .fa-money-bill-wave {
@@ -202,7 +200,6 @@ form {
 
 .familial:hover {
     background-color: #DEEBFF;
-    bouton
 }
 
 .fa-child {
@@ -236,7 +233,6 @@ form {
 
 .romantique:hover {
     background-color: #DEEBFF;
-    bouton;
 }
 
 .fa-heart {
@@ -270,7 +266,6 @@ form {
 
 .animauxAutorisés:hover {
     background-color: #DEEBFF;
-    bouton;
 }
 
 .fa-dog {
@@ -305,8 +300,8 @@ form {
     text-align: center;
 }
 
-.fa-info::before {
-    
+.hh {
+    background-color: grey;
 }
 
 
