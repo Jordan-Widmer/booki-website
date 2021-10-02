@@ -36,7 +36,7 @@ a {
 }
 
 
-/* Logo de Reservia */
+/* Logo de Booki */
 .logoBooki {
     position: relative;
     top: 20px;
@@ -46,7 +46,7 @@ a {
 
 /* Barre de Navigation */
 .barreDeNavigation {
-    margin-right: 5em;
+    margin-right: 80px;
     display: flex;
     justify-content: flex-end;
 }
@@ -54,9 +54,9 @@ a {
 .bdnHebergements {
     font-size: large;
     font-weight: 500;
-    padding: 40px;
     color: #0065FC;
     border-top: solid 3px #0065FC;
+    padding: 40px;
     padding-top: 59px;
 }
 
@@ -83,6 +83,7 @@ a {
 
 /* Titre principal et sous titre */
 .premierTitre {
+    font-size: 32px;
     position: relative;
     top: 10px;
 }
@@ -103,7 +104,7 @@ form {
 .fa-map-marker-alt {
     color: black;
     background-color: #F2F2F2;
-    padding: 1.2rem 1.30rem;
+    padding: 19px  21px;
     border-radius: 1rem 0 0 1rem;
 }
 /* Zone de Saisie */
@@ -112,21 +113,21 @@ form {
     border-left: none;
     border-top: #F2F2F2 1px solid;
     border-bottom: #F2F2F2 1px solid;
-    padding: 0.85rem;
-    width: 14.5rem;
-    font-size: 1.3rem;
+    padding: 14px;
+    width: 232px;
+    font-size: 21px;
     font-weight: bold;
 }
 /* Bouton de Recherche */
 .boutonDeRecherche {
     background-color: #0065FC;
     color: white;
-    font-weight: bold;
     border: none;
-    border-radius: 0 1rem 1rem 0;
-    padding: 1rem;
+    border-radius: 0 16px 16px 0;
+    padding: 16px;
     font-family: "Raleway", "Sans serif";
-    font-size: 1.2rem;
+    font-size: 19px;
+    font-weight: bold;
     cursor: pointer;
 }
 
@@ -137,28 +138,37 @@ form {
 .sectionFiltres {
     margin-top: 15px;
     display: flex;
+    flex-wrap: wrap;
     text-align: center;
+}
+
+.titreFiltres {
+    display: flex;
+    margin-right: 30px;
+    padding-bottom: 5px;
 }
 
 .categories {
     display: flex;
-    padding-left: 40px;
+    flex-wrap: wrap;
     position: relative;
     top: 1px;
     font-size: 18px;
     font-weight: bold;
     justify-content: center;
     align-items: center;
+    min-height: fit-content;
 }
-
-
+/* Section Economique */
 .economique {
     display: flex;
     margin-right: 30px;
-    border: solid 2px #F2F2F2;
+    margin-bottom: 7px;
     width: 180px;
     height: 50px;
-    border-radius: 3em 3em 3em 3em;
+    border: solid 2px #E7E7E7;
+    border-radius: 48px 48px 48px 48px;
+    cursor: pointer;
 }
 
 .textEco {
@@ -167,6 +177,7 @@ form {
 
 .economique:hover {
     background-color: #DEEBFF;
+    border: solid #0065FC;
 }
 
 .fa-money-bill-wave {
@@ -182,15 +193,16 @@ form {
     position: relative;
     top: 16px;
 }
-
-
+/* Section Familial */
 .familial {
     display: flex;
     margin-right: 30px;
-    border: solid 2px #F2F2F2;
+    margin-bottom: 7px;
     width: 180px;
     height: 50px;
-    border-radius: 3em 3em 3em 3em;
+    border: solid 2px #E7E7E7;
+    border-radius: 48px 48px 48px 48px;
+    cursor: pointer;
 }
 
 .textFam {
@@ -200,13 +212,14 @@ form {
 
 .familial:hover {
     background-color: #DEEBFF;
+    border: solid #0065FC;
 }
 
 .fa-child {
     background-color: #DEEBFF;
     border-radius: 50px 0 0 50px;
     margin-right: 10px;
-    padding-right: 14px;
+    padding-right: 20px;
     padding-left: 14px;
 
 }
@@ -216,15 +229,16 @@ form {
     top: 16px;
     padding-left: 4px;
 }
-
-
+/* Section Romantique */
 .romantique {
     display: flex;
     margin-right: 30px;
-    border: solid 2px #F2F2F2;
+    margin-bottom: 7px;
+    border: solid 2px #E7E7E7;
     width: 180px;
     height: 50px;
-    border-radius: 3em 3em 3em 3em;
+    border-radius: 48px 48px 48px 48px;
+    cursor: pointer;
 }
 
 .textRom {
@@ -233,6 +247,7 @@ form {
 
 .romantique:hover {
     background-color: #DEEBFF;
+    border: solid #0065FC;
 }
 
 .fa-heart {
@@ -248,15 +263,16 @@ form {
     top: 16px;
     padding-left: 4px;
 }
-
-
+/* Section Animaux Autorisés */
 .animauxAutorisés {
     display: flex;
     margin-right: 30px;
-    border: solid 2px #F2F2F2;
+    margin-bottom: 7px;
+    border: solid 2px #E7E7E7;
     width: 180px;
     height: 50px;
-    border-radius: 3em 3em 3em 3em;
+    border-radius: 48px 48px 48px 48px;
+    cursor: pointer;
 }
 
 .textAni {
@@ -266,6 +282,7 @@ form {
 
 .animauxAutorisés:hover {
     background-color: #DEEBFF;
+    border: solid #0065FC;
 }
 
 .fa-dog {
@@ -284,25 +301,71 @@ form {
 
 
 
+/* Information sur les logements actuellement disponible */
+
 .sousTextCategories {
+    display: flex;
     margin-top: 30px;
 }
 
+.textSousCategories {
+    display: flex;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+/* Îcone Info */
 .fa-info {
     display: flex;
-    margin-right: 10px;
-    padding-top: 6px;
+    margin-left: 10px;
+    padding: 5px;
     border: #F2F2F2 2px solid;
     border-radius: 80%;
-    width: 30px;
-    height: 25px;
+    width: 16px;
+    height: 16px;
     justify-content: center;
     text-align: center;
 }
 
-.hh {
-    background-color: grey;
+
+
+/* Section Hébergements à Marseille */
+
+.hebergementsMarseille {
+    background-color: #F2F2F2;
 }
+/* Image des Hébergements à Marseille */
+.litSuperposéEtFenetre {
+    width: 300px;
+    height: 200px;
+}
+
+.deuxLitLanterneFenetre {
+    width: 300px;
+    height: 200px;
+}
+
+.litMiroirDroite {
+    width: 300px;
+    height: 200px;
+}
+
+.litStyleMarinTableau {
+    width: 300px;
+    height: 200px;
+}
+
+.deuxLitSuperposéBois {
+    width: 300px;
+    height: 200px;
+}
+
+.deuxLitTéléBureauBois {
+    width: 300px;
+    height: 200px;
+}
+
+
 
 
 
