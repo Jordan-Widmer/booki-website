@@ -28,13 +28,19 @@ a {
     text-decoration: none;
 }
 
+/* Balise Global */
+.colorBlack {
+    color: black;
+}
 
-
-/* Icône type Fas */
+/* Icône type Fas / Far */
 .fas {
     color: #0065FC;
 }
 
+.far {
+    color: grey;
+}
 
 /* Logo de Booki */
 .logoBooki {
@@ -331,38 +337,68 @@ form {
 
 /* Section Hébergements à Marseille */
 
+.hebergements {
+}
+
 .hebergementsMarseille {
     background-color: #F2F2F2;
 }
 /* Image des Hébergements à Marseille */
-.litSuperposéEtFenetre {
-    width: 300px;
-    height: 200px;
+.imageChambre {
+    width: 97%;
+    height: 170px;
+    object-fit: cover;
+    position: relative;
+    top: 1px;
+    padding: 2px;
+    border-radius: 16px 16px 0 0;
+}
+  
+.titreDansCarte {
+    margin: 10px 60px 0 12px;
 }
 
-.deuxLitLanterneFenetre {
-    width: 300px;
-    height: 200px;
+.sousTitreDansCarte {
+    margin: 8px 120px 0 12px;
 }
 
-.litMiroirDroite {
-    width: 300px;
-    height: 200px;
+.etoileDansCarte {
+    margin: 8px 160px 0 12px;
 }
 
-.litStyleMarinTableau {
-    width: 300px;
-    height: 200px;
+.carte {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    padding: 4px;
+    text-align: center;
+    border-radius: 16px;
+    transition: 0.3s;
 }
 
-.deuxLitSuperposéBois {
-    width: 300px;
-    height: 200px;
+.carte:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+/* Correction des Cartes */
+.correctionTitreDansCarte {
+    margin: 10px 150px 0 12px;
 }
 
-.deuxLitTéléBureauBois {
-    width: 300px;
-    height: 200px;
+.correctionN2TitreDansCarte {
+    margin: 10px 94px 0 12px;
+}
+
+.correctionN3TitreDansCarte {
+    margin: 10px 128px 0 12px;
+}
+
+.correctionN4TitreDansCarte {
+    margin: 10px 98px 0 12px;
+}
+
+.correctionN5TitreDansCarte {
+    margin: 10px 115px 0 12px;
 }
 
 
