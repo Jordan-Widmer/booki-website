@@ -362,21 +362,14 @@ form {
 .titreHebergementsMarseille {
     position: relative;
     top: 15px;
-    padding-left: 30px;
+    padding-left: 75px;
 }
 
 .premierGrille {
     display: flex;
     flex-wrap: wrap;
-    column-gap: 30px;
     row-gap: 30px;
-}
-
-.deuxiemeGrille {
-    display: flex;
-    flex-wrap: wrap;
-    column-gap: 30px;
-    row-gap: 30px;
+    justify-content: space-evenly;
 }
 
 /* Image des Hébergements à Marseille */
@@ -406,7 +399,7 @@ form {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     white-space: normal;
     width: 300px;
-    padding: 4px;
+    padding: 15px;
     text-align: center;
     border-radius: 20px;
     transition: 0.3s;
@@ -442,7 +435,7 @@ form {
     display: flex;
     font-weight: bold;
     font-size: 25px;
-    padding-left: 20px;
+    padding-left: 75px;
 }
 
 aside {
