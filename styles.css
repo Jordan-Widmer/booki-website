@@ -352,7 +352,7 @@ form {
     display: flex;
     margin-right: 30px;
     flex-direction: column;
-    height: 750px;
+    height: 100%;
     border-radius: 50px;
     background-color: #F2F2F2;
     padding: 0 30px 30px 30px;
