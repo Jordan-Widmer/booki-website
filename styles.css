@@ -399,7 +399,7 @@ form {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     white-space: normal;
     width: 300px;
-    padding: 15px;
+    padding: 5px;
     text-align: center;
     border-radius: 20px;
     transition: 0.3s;
@@ -445,6 +445,75 @@ aside {
     padding: 0px;
     background-color: #F2F2F2;
     padding: 0 30px 30px 30px;
+}
+
+
+
+/* Section des plus Populaires */
+
+.hebergementsPopulaires {
+    display: flex;
+    margin-right: 30px;
+    flex-direction: column;
+    width: 40%;
+    height: 100%;
+    border-radius: 50px;
+    background-color: #F2F2F2;
+    padding: 0 30px 30px 30px;
+    row-gap: 30px;
+}
+
+.cartePopulaires {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    white-space: normal;
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.cartePopulaires:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+}
+
+.grillePopulaires {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    justify-content: space-evenly;
+}
+
+.imageChambrePopulaire {
+    width: 40%;
+    height: 178.5px;
+    object-fit: cover;
+    position: relative;
+    padding: 2px;
+    right: 2px;
+    border-radius: 16px 0 0 16px;
+}
+
+.sasas {
+    width: 97%;
+    height: 170px;
+    object-fit: cover;
+    position: relative;
+    top: 1px;
+    padding: 2px;
+    border-radius: 16px 16px 0 0;
+}
+
+.flexing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textDansCartePopulaire {
+    width: 55%;
+    text-align: start;
+    padding-left: 16px;
 }
 
 
