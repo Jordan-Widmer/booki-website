@@ -429,7 +429,7 @@ form {
 }
 
 .correctionN3TitreDansCarte {
-    margin: 10px 128px 0 12px;
+    margin: 10px 128px 0 12px;  
 }
 
 .correctionN4TitreDansCarte {
@@ -440,6 +440,7 @@ form {
     margin: 10px 115px 0 12px;
 }
 
+/* Afficher Plus */
 .afficherPlus {
     color: black;
     display: flex;
@@ -450,9 +451,7 @@ form {
 
 
 
-
-
-/* Section des plus Populaires */
+/* Section des hebergements les plus Populaires */
 
 .hebergementsPopulaires {
     display: flex;
@@ -498,16 +497,6 @@ form {
     border-radius: 16px 0 0 16px;
 }
 
-.sasas {
-    width: 97%;
-    height: 170px;
-    object-fit: cover;
-    position: relative;
-    top: 1px;
-    padding: 2px;
-    border-radius: 16px 16px 0 0;
-}
-
 .flexing {
     display: flex;
     justify-content: center;
@@ -518,6 +507,133 @@ form {
     width: 55%;
     text-align: start;
     padding-left: 16px;
+}
+
+
+
+/* Section des Activités à Marseille */
+
+.sectionDesActivites {
+    margin-right: 30px;
+}
+
+.contenueActivitesDisponible {
+    width: 100%;
+    height: 600px;
+}
+
+.dispositionDesCartes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.carteActivites {
+    width: 23%;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 1px #f2f2f2;
+}
+
+.personnalisationDeUneSeuleCarte {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: 0.3s;
+}
+
+.personnalisationDeUneSeuleCarte:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+}
+
+.imageDeLaCarteUne {
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 530px;
+    border-radius: 15px 15px 0 0;
+}
+
+.imageDeLaCarteDeux {
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 250px;
+    border-radius: 15px 15px 0 0;
+}
+
+.imageDeLaCarteTrois {
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 150px;
+    border-radius: 15px 15px 0 0;
+}
+
+.imageDeLaCarteQuatre {
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 530px;
+    border-radius: 15px 15px 0 0;
+}
+
+.imageDeLaCarteCinqEtSix {
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 210px;
+    border-radius: 15px 15px 0 0;
+}
+
+.titreDeActivites {
+    height: 70px;
+}
+
+
+.dispositionDeLaLegende {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 5%;
+    width: 95%;
+}
+
+.colonneDeuxImagesActivites {
+    width: 23%;
+    height: 600px;
+}
+
+.dispositionImagesColonne {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.carteActivitesDansColonne {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 1px #F2F2F2;
+}
+
+.personalisationImagesDansColonne {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: 0.3s;
+}
+
+.personalisationImagesDansColonne:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+}
+
+.imgactivitycard14 {
+        object-fit: cover;
+        object-position: center;
+        width: 100%;
+        height: 530px;
+        border-radius: 15px 15px 0 0;
 }
 
 
