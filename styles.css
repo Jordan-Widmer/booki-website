@@ -22,10 +22,6 @@
     src: url('fonts/static/Raleway-Regular.ttf') format('truetype');
 }
 
-body {
-    margin-left: 20px;
-}
-
 /* Suppression des caractères spéciaux de tous les liens */
 a {
     text-decoration: none;
@@ -148,7 +144,7 @@ form {
     border-bottom: #F2F2F2 1px solid;
     padding: 14px;
     width: 232px;
-    font-size: 21px;
+    font-size: 20.5px;
     font-weight: bold;
 }
 /* Bouton de Recherche */
@@ -159,7 +155,7 @@ form {
     border-radius: 0 16px 16px 0;
     padding: 16px;
     font-family: "Raleway", "Sans serif";
-    font-size: 19px;
+    font-size: 18.8px;
     font-weight: bold;
     cursor: pointer;
 }
@@ -237,7 +233,7 @@ form {
     display: flex;
     margin-right: 26px;
     margin-bottom: 7px;
-    width: 180px;
+    width: 160px;
     height: 50px;
     border: solid 2px #E7E7E7;
     border-radius: 48px 48px 48px 48px;
@@ -317,15 +313,15 @@ form {
     margin-right: 0px;
     margin-bottom: 7px;
     border: solid 2px #E7E7E7;
-    width: 180px;
+    width: 240px;
     height: 50px;
     border-radius: 48px 48px 48px 48px;
     cursor: pointer;
 }
 
 .textAni {
-    padding-top: 4px;
-    padding-right: 20px;
+    padding-top: 14px;
+    padding-left: 13px;
 }
 
 .animauxAutorisés:hover {
@@ -488,7 +484,6 @@ form {
 
 .hebergementsPopulaires {
     display: flex;
-    margin-right: 30px;
     flex-direction: column;
     width: 50%;
     height: 100%;
@@ -550,7 +545,6 @@ form {
 
 .sectionActivites {
     margin-top: 40px;
-    margin-right: 30px;
 }
 
 .contenueActivitesDisponible {
@@ -677,8 +671,6 @@ form {
 /* Section Footer */
 
 .dispositionPiedDePage {
-    margin-right: 30px;
-    height: 100%;
 }
 
 .footerDisposition {
@@ -687,7 +679,6 @@ form {
     justify-content: space-between;
     align-items: center;
     height: 100%;
-    margin-bottom: 40px;
     margin-top: 60px;
 }
 
@@ -720,12 +711,14 @@ form {
     .hebergementsMarseille {
         width: 100%;
         height: 100%;
+        margin-right: 0;
         
     }
 
     .hebergementsPopulaires {
         width: 100%;
         height: 100%;
+        margin-right: 0px;
         border-radius: 50px;
         margin-bottom: 30px;
     }
@@ -827,7 +820,7 @@ form {
 
 /* Version Tablette */
 
-@media screen and (max-width: 986px) {
+@media screen and (max-width: 972px) {
     .sectionFiltres {
         flex-wrap: nowrap;
     }
@@ -837,7 +830,17 @@ form {
     }
 }
 
+@media screen and (max-width:729px) {
+    .sectionFiltres {
+        flex-wrap: wrap;
+    }
+}
+
 @media screen and (max-width: 720px) {
+    .footerDisposition {
+        
+    }
+
     .hebergementsMarseille {
         background-color: rgba(0, 0, 0, 0);
         margin-right: 0;
@@ -849,7 +852,7 @@ form {
 
     .sectionActivites {
         padding: 0 30px 30px 30px;
-        margin-right: 0;
+        margin-right: 0px;
     }
 
     .dispositionCartes {
@@ -882,7 +885,6 @@ form {
         row-gap: 30px;
         width: 100%;
         height: 100%;
-        margin-bottom: 120px;
     }
 
     .carteActivites {
@@ -932,6 +934,10 @@ form {
 /* Début du code de là Version Mobile */
 
 @media screen and (max-width:720px) {
+    .contenueActivitesDisponible {
+        height: 100%;
+    }
+
     .carte {
         width: 100%;
         height: 300px;
@@ -971,8 +977,8 @@ form {
     }
 
     .zoneSaisie {
-        width: 300px;
-        font-size: 25px;
+        width: 90.6%;
+        font-size: 24.8px;
     }
 
     .boutonRecherche {
@@ -980,13 +986,19 @@ form {
     }
 }
 
+@media screen and (max-width:547px) {
+    .animauxAutorisés {
+        margin-right: 40px;
+    }
+
+
 @media screen and (max-width:538px) {
     .resolution600 {
         font-size: 13.6px;
     }
 }
 
-@media screen and (max-width:550px) {
+@media screen and (max-width:554px) {
     .sectionFiltres {
         flex-wrap: wrap;
     }
@@ -1009,6 +1021,18 @@ form {
         flex-wrap: wrap;
         row-gap: 30px;
         justify-content: space-evenly;
+    }
+}
+
+@media screen and (max-width:442px) {
+    .premierTitre {
+        font-size: ;
+    }
+}
+
+@media screen and (max-width:424px) {
+    .familial {
+        margin-right: 0;
     }
 }
 
