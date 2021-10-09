@@ -48,6 +48,10 @@ a {
     color: #DADADA;
 }
 
+.fa-search {
+    display: none;
+}
+
 .colorBlue {
     color: #0065FC;
 }
@@ -539,7 +543,9 @@ form {
     padding-left: 16px;
 }
 
-
+.etoilePopulaire {
+    margin-top: 50px;
+}
 
 /* Section des Activités à Marseille */
 
@@ -813,6 +819,7 @@ form {
         row-gap: 30px;
         justify-content: space-evenly;
     }
+
 }
 
 /* FIN du Code de là Version Desktop */
@@ -869,7 +876,7 @@ form {
 
 @media screen and (max-width:538px) {
     .resolution600 {
-        font-size: 14px;
+        font-size: 13.6px;
     }
 }
 
