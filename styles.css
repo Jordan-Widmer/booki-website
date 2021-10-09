@@ -49,7 +49,7 @@ a {
 }
 
 .fa-search {
-    display: none;
+    color: white;
 }
 
 .colorBlue {
@@ -129,7 +129,6 @@ a {
 
 /* Barre de recherche */
 form {
-    flex-wrap: wrap;
     display: inline-flex;
     position: relative;
     bottom: 14px;
@@ -196,7 +195,7 @@ form {
 /* Section Economique */
 .economique {
     display: flex;
-    margin-right: 30px;
+    margin-right: 26px;
     margin-bottom: 7px;
     width: 180px;
     height: 50px;
@@ -236,7 +235,7 @@ form {
 /* Section Familial */
 .familial {
     display: flex;
-    margin-right: 30px;
+    margin-right: 26px;
     margin-bottom: 7px;
     width: 180px;
     height: 50px;
@@ -276,7 +275,7 @@ form {
 /* Section Romantique */
 .romantique {
     display: flex;
-    margin-right: 30px;
+    margin-right: 26px;
     margin-bottom: 7px;
     border: solid 2px #E7E7E7;
     width: 180px;
@@ -315,7 +314,7 @@ form {
 /* Section Animaux Autorisés */
 .animauxAutorisés {
     display: flex;
-    margin-right: 30px;
+    margin-right: 0px;
     margin-bottom: 7px;
     border: solid 2px #E7E7E7;
     width: 180px;
@@ -828,7 +827,89 @@ form {
 
 /* Version Tablette */
 
+@media screen and (max-width: 986px) {
+    .sectionFiltres {
+        flex-wrap: nowrap;
+    }
+
+    .categories {
+        justify-content: start;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .hebergementsMarseille {
+        background-color: rgba(0, 0, 0, 0);
+        margin-right: 0;
+    }
+
+    .hebergementsPopulaires {
+        margin-right: 0;
+    }
+
+    .sectionActivites {
+        padding: 0 30px 30px 30px;
+        margin-right: 0;
+    }
+
+    .dispositionCartes {
+        flex-direction: column;
+        row-gap: 30px;
+        width: 100%;
+    }
+
+    .imageCarteUne {
+        height: 270px;
+    }
+
+    .imageCarteDeux {
+        height: 270px;
+    }
+
+    .imageCarteTrois {
+        height: 270px;
+    }
+
+    .imageCarteQuatre {
+        height: 270px;
+    }
+
+    .imageCarteCinqSix {
+        height: 270px;
+    }
+
+    .colonneDeuxImagesActivites {
+        row-gap: 30px;
+        width: 100%;
+        height: 100%;
+        margin-bottom: 120px;
+    }
+
+    .carteActivites {
+        width: 100%;
+        height: 100%;
+    }
+
+    .carteActivitesDansColonne {
+        height: 100%;
+    } 
+}
+
 /* Resolution Minimal Version Tablette */
+@media screen and (min-width:768px) {
+
+    form {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width:767px) {
+
+    .categories {
+        justify-content: flex-start;
+    }
+}
+
 @media screen and (max-width:768px) {
     .carte {
         width: 285px;
@@ -874,11 +955,43 @@ form {
     }
 }
 
+@media screen and (min-width:575px) {
+    .fa-search {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width:575px) {
+    .textRechercher {
+        display: none;
+    }
+
+    .fa-map-marker-alt {
+        padding: 21.7px 24px;
+    }
+
+    .zoneSaisie {
+        width: 300px;
+        font-size: 25px;
+    }
+
+    .boutonRecherche {
+        font-size: 23px;
+    }
+}
+
 @media screen and (max-width:538px) {
     .resolution600 {
         font-size: 13.6px;
     }
 }
+
+@media screen and (max-width:550px) {
+    .sectionFiltres {
+        flex-wrap: wrap;
+    }
+}
+
 
 @media screen and (max-width:597px) {
     .carte {
@@ -898,6 +1011,15 @@ form {
         justify-content: space-evenly;
     }
 }
+
+
+
+
+
+
+
+
+
 
 
 
