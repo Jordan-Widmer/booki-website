@@ -85,8 +85,8 @@ a {
     font-weight: 500;
     color: #0065FC;
     border-top: solid 3px #0065FC;
+    padding: 40px;
     padding-top: 59px;
-    padding-right: auto;
 }
 
 /* Section Activites */
@@ -1064,7 +1064,6 @@ form {
         padding-left: 100px;
         padding-bottom: 15px;
         font-size: 22px;
-        width: 100%;
     }
 
     .bdnHebergement:hover {
@@ -1081,7 +1080,6 @@ form {
         padding-top: 50px;
         padding-bottom: 15px;
         font-size: 22px;
-        width: 100%;
         border-bottom: solid 3px #F2F2F2;
     }
 
