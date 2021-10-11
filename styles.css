@@ -71,14 +71,19 @@ a {
     top: 20px;
 }
 
-
-
 /* Barre de Navigation */
 .barreNavigation {
     margin-right: 80px;
     display: flex;
     justify-content: flex-end;
 }
+
+.navblink {
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
 /* Section Hebergement */
 .bdnHebergements {
     font-size: large;
@@ -1051,19 +1056,16 @@ form {
     .barreNavigation {
         width: 100%;
         display: flex;
+        align-items: center;
         justify-content: space-evenly;
     }
 
     .bdnHebergements {
-        padding-right: ;
-        border-bottom: solid 3px #0065FC;
-        display: block;
         border-top: unset;
-        padding: 60%;
-        padding-top: 50px;
-        padding-left: 100px;
-        padding-bottom: 15px;
-        font-size: 22px;
+    }
+
+    .bdnActivites {
+        padding: 49px;
     }
 
     .bdnHebergement:hover {
@@ -1072,51 +1074,35 @@ form {
         padding-bottom: 59px;
     }
 
-    .bdnActivites {
-        padding: unset;
-        padding: 40%;
-        padding-right: 140px;
-        display: block;
-        padding-top: 50px;
-        padding-bottom: 15px;
-        font-size: 22px;
-        border-bottom: solid 3px #F2F2F2;
+    .bdnActivites:hover {
+        width: 50%;
+        color: #0065FC;
     }
 
-    .bdnActivites:hover {
-        width: 100%;
+    .navblink {
+        border-top: none;
+        width: 50%;
+    }
+
+    .navblink:active {
         color: #0065FC;
-        border-bottom: solid 3px #0065FC;
+    }
+
+    .bdnGlobal {
+        height: 50px;
+        width: 50%;
+        border-bottom: 3px solid #f2f2f2;
+    }
+
+    .colorbluee {
+        border-bottom: #0065FC 3px solid;
+    }
+
+    .colorbluehoover:hover {
+        border-bottom: #0065FC 3px solid;
+    }
+
+    nav {
+        margin-top: 50px;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-
-
-
-
-
-
-
