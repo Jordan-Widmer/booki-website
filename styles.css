@@ -1108,13 +1108,13 @@ form {
 
 }
 
-@media screen and (max-width:441px) {
-    
+@media screen and (max-width:460px) {
+
     .premierTitre {
-        font-size: 29px;
+        font-size: 27px;
     }
 
-    .fa-chart-line {
+        .fa-chart-line {
         padding-left: unset;
     }
 
@@ -1122,20 +1122,13 @@ form {
         font-size: 22px;
         padding-left: unset;
     }
+
 }
 
 @media screen and (max-width:424px) {
 
     .familial {
         margin-right: 0;
-    }
-
-}
-
-@media screen and (max-width:402px) {
-
-    .premierTitre {
-        font-size: 27px;
     }
 
 }
