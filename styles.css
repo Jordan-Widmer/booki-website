@@ -29,6 +29,10 @@ a {
     text-decoration: none;
 }
 
+body {
+    margin: unset;
+}
+
 /* Balise Global */
 
 .fas {
@@ -88,7 +92,7 @@ a {
     border-top: solid 3px #0065FC;
     color: #0065FC;
     padding: 40px;
-    padding-top: 59px;
+    padding-top: 51px;
     font-size: large;
     font-weight: 500;
 }
@@ -421,7 +425,7 @@ form {
 }
   
 .titreCarte {
-    margin: 10px 60px 0 12px;
+    margin: 4px 60px 0 12px
 }
 
 .sousTitreCarte {
@@ -440,33 +444,12 @@ form {
     transition: 0.3s;
     white-space: normal;
     width: 300px;
+    min-width: 300px;
 }
 
 .carte:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
   }
-
-/* Correction des Cartes */
-
-.correctionTitreDansCarte {
-    margin: 10px 150px 0 12px;
-}
-
-.correctionN2TitreDansCarte {
-    margin: 10px 94px 0 12px;
-}
-
-.correctionN3TitreDansCarte {
-    margin: 10px 128px 0 12px;  
-}
-
-.correctionN4TitreDansCarte {
-    margin: 10px 98px 0 12px;
-}
-
-.correctionN5TitreDansCarte {
-    margin: 10px 115px 0 12px;
-}
 
 /* Afficher Plus */
 
@@ -664,13 +647,13 @@ form {
     height: 100%;
     justify-content: space-between;
     margin-top: 60px;
+    padding-right: 25%;
 }
 
 .footerEspacementCadre {
     margin-bottom: 50px;
-    margin-top: 30px;
+    margin-top: 10px;
     padding-left: 40px;
-    padding-right: 40px;
     text-align: start;
 }
 
@@ -892,23 +875,23 @@ form {
     }
 
     .imageCarteUne {
-        height: 270px;
+        height: 200px;
     }
 
     .imageCarteDeux {
-        height: 270px;
+        height: 200px;
     }
 
     .imageCarteTrois {
-        height: 270px;
+        height: 200px;
     }
 
     .imageCarteQuatre {
-        height: 270px;
+        height: 200px;
     }
 
     .imageCarteCinqSix {
-        height: 270px;
+        height: 200px;
     } 
 
     .sectionActivites {
@@ -923,7 +906,7 @@ form {
     .carte {
         padding-left: 10px;
         width: 100%;
-        height: 300px;
+        height: 260px;
         text-align: unset;
     }
 
@@ -947,7 +930,6 @@ form {
     }
 
     .titreCarte {
-        margin-top: 30px;
         font-size: 20px;
     }
 
@@ -981,7 +963,6 @@ form {
 
     .carte {
         width: 100%;
-        height: 300px;
     }
 
     .cartePopulaires {
@@ -1007,7 +988,7 @@ form {
     .bdnActivites:hover {
         color: #0065FC;
         border-top: solid 3px #0065FC;
-        padding-top: 59px;
+        padding-top: 51px;
     }
 
 }
@@ -1081,6 +1062,31 @@ form {
         font-size: 24.8px;
     }
 
+}
+
+@media screen and (max-width:574px) {
+
+    .hebergementsPopulaires {
+        border-radius: unset;
+        padding: 0 10px 10px 10px;    
+    }
+
+    .hebergementsMarseille {
+        padding: 0 10px 10px 10px;    
+    }
+
+    .sectionActivites {
+        padding: 0 10px 10px 10px;    
+    }
+
+}
+
+@media screen and (min-width:575px) {
+
+    .margeSite {
+        margin-left: 25px;
+        margin-right: 25px;
+    }
 }
 
 @media screen and (max-width:554px) {
