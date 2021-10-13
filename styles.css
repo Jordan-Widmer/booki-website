@@ -425,7 +425,7 @@ form {
 }
   
 .titreCarte {
-    margin: 4px 60px 0 12px
+    margin: 10px 60px 0 12px;
 }
 
 .sousTitreCarte {
@@ -444,12 +444,33 @@ form {
     transition: 0.3s;
     white-space: normal;
     width: 300px;
-    min-width: 300px;
 }
 
 .carte:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
   }
+
+/* Correction des Cartes */
+
+.correctionTitreDansCarte {
+    margin: 10px 150px 0 12px;
+}
+
+.correctionN2TitreDansCarte {
+    margin: 10px 94px 0 12px;
+}
+
+.correctionN3TitreDansCarte {
+    margin: 10px 128px 0 12px;  
+}
+
+.correctionN4TitreDansCarte {
+    margin: 10px 98px 0 12px;
+}
+
+.correctionN5TitreDansCarte {
+    margin: 10px 115px 0 12px;
+}
 
 /* Afficher Plus */
 
@@ -504,6 +525,7 @@ form {
     padding: 2px;
     right: 2px;
     width: 40%;
+    min-width: 30%;
 }
 
 .flexing {
@@ -652,8 +674,9 @@ form {
 
 .footerEspacementCadre {
     margin-bottom: 50px;
-    margin-top: 10px;
+    margin-top: 30px;
     padding-left: 40px;
+    padding-right: 40px;
     text-align: start;
 }
 
@@ -875,23 +898,23 @@ form {
     }
 
     .imageCarteUne {
-        height: 200px;
+        height: 210px;
     }
 
     .imageCarteDeux {
-        height: 200px;
+        height: 210px;
     }
 
     .imageCarteTrois {
-        height: 200px;
+        height: 210px;
     }
 
     .imageCarteQuatre {
-        height: 200px;
+        height: 210px;
     }
 
     .imageCarteCinqSix {
-        height: 200px;
+        height: 210px;
     } 
 
     .sectionActivites {
@@ -906,7 +929,7 @@ form {
     .carte {
         padding-left: 10px;
         width: 100%;
-        height: 260px;
+        height: 300px;
         text-align: unset;
     }
 
@@ -963,6 +986,7 @@ form {
 
     .carte {
         width: 100%;
+        height: 270px;
     }
 
     .cartePopulaires {
@@ -989,6 +1013,31 @@ form {
         color: #0065FC;
         border-top: solid 3px #0065FC;
         padding-top: 51px;
+    }
+
+}
+
+@media screen and (min-width:575px) {
+
+    .margeSite {
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+}
+
+@media screen and (max-width:574px) {
+
+    .hebergementsPopulaires {
+        border-radius: unset;
+        padding: 0 10px 10px 10px;    
+    }
+
+    .hebergementsMarseille {
+        padding: 0 10px 10px 10px;    
+    }
+
+    .sectionActivites {
+        padding: 0 10px 10px 10px;    
     }
 
 }
@@ -1062,31 +1111,6 @@ form {
         font-size: 24.8px;
     }
 
-}
-
-@media screen and (max-width:574px) {
-
-    .hebergementsPopulaires {
-        border-radius: unset;
-        padding: 0 10px 10px 10px;    
-    }
-
-    .hebergementsMarseille {
-        padding: 0 10px 10px 10px;    
-    }
-
-    .sectionActivites {
-        padding: 0 10px 10px 10px;    
-    }
-
-}
-
-@media screen and (min-width:575px) {
-
-    .margeSite {
-        margin-left: 25px;
-        margin-right: 25px;
-    }
 }
 
 @media screen and (max-width:554px) {
