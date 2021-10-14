@@ -182,7 +182,7 @@ form {
     flex-wrap: wrap;
     font-size: 18px;
     font-weight: bold;
-    justify-content: center;
+    justify-content: start;
     position: relative;
     top: 1px;
     min-height: fit-content;
@@ -719,62 +719,6 @@ form {
         width: 390px;
     }
 
-    .cartePopulaires {
-        width: 400px;
-    }
-
-}
-
-@media screen and (max-width:1428px) {
-
-    .carte {
-        width: 380px;
-    }
-
-    .cartePopulaires {
-        width: 380px;
-    }
-
-}
-
-@media screen and (max-width:1347px) {
-
-    .carte {
-        width: 350px;
-    }
-
-    .cartePopulaires {
-        width: 350px;
-    }
-
-}
-
-@media screen and (max-width:1255px) {
-
-    .carte {
-        width: 310px;
-    }
-
-    .cartePopulaires {
-        width: 310px;
-    }
-
-}
-
-@media screen and (max-width:1127px) {
-
-    .carte {
-        width: 290px;
-    }
-
-    .cartePopulaires {
-        width: 290px;
-    }
-
-    .textCartePopulaire {
-        width: 50%;
-    }
-
 }
 
 @media screen and (max-width:992px) {
@@ -801,28 +745,6 @@ form {
 }
 
 /* FIN du Code de là Version Desktop */
-
-/* Version Tablette */
-
-@media screen and (max-width: 972px) {
-
-    .categories {
-        justify-content: start;
-    }
-
-}
-
-/* Resolution Minimal Version Tablette */
-
-@media screen and (min-width:768px) {
-
-    form {
-        flex-wrap: wrap;
-    }
-
-}
-
-/* Fin Du Code de là Version Tablette */
 
 /* Début du code de là Version Mobile */
 
@@ -934,6 +856,30 @@ form {
 }
 
 @media screen and (max-width:574px) {
+
+    .titreActivites {
+        height: 50px;
+    }
+
+    .imageCarteUne {
+        height: 160px;
+    }
+
+    .imageCarteDeux {
+        height: 160px;
+    }
+
+    .imageCarteTrois {
+        height: 160px;
+    }
+
+    .imageCarteQuatre {
+        height: 160px;
+    }
+
+    .imageCarteCinqSix {
+        height: 160px;
+    } 
 
     .imageChambre {
         height: 140px;
