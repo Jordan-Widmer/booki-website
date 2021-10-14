@@ -935,8 +935,12 @@ form {
 
 @media screen and (max-width:574px) {
 
+    .imageChambre {
+        height: 140px;
+    }
+
     .carte {
-        height: 270px;
+        height: 240px;
     }
 
     .hebergementsPopulaires {
