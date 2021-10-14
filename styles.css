@@ -542,7 +542,7 @@ form {
 }
 
 .etoilePopulaire {
-    margin-top: 50px;
+    padding-top: 30px;
 }
 
 /* Section des Activités à Marseille */
@@ -688,7 +688,39 @@ form {
     margin-bottom: 12px;
 }
 
-@media screen and (max-width:1630px) {
+@media screen and (max-width:1500px) {
+
+    .titreCarte {
+        margin: 10px 120px 0 12px;
+    }
+
+    .sousTitreCarte {
+        margin: 8px 183px 0 12px;
+    }
+
+    .etoileCarte {
+        margin: 8px 220px 0 12px;
+    }
+
+    .correctionTitreDansCarte {
+        margin: 10px 210px 0 12px;
+    }
+    
+    .correctionN2TitreDansCarte {
+        margin: 10px 155px 0 12px;
+    }
+    
+    .correctionN3TitreDansCarte {
+        margin: 10px 190px 0 12px;  
+    }
+    
+    .correctionN4TitreDansCarte {
+        margin: 10px 162px 0 12px;
+    }
+    
+    .correctionN5TitreDansCarte {
+        margin: 10px 175px 0 12px;
+    }
 
     .hebergements {
         display: flex;
@@ -713,6 +745,7 @@ form {
     .grillePopulaires {
         display: flex;
         flex-wrap: nowrap;
+        column-gap: 10px;
     }
 
     .carte {
