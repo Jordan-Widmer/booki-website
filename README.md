@@ -1,5 +1,5 @@
 # Booki
-Second projet de la formation "Développeur web" chez OpenClassroom. L'objectif de ce projet est d'intégrer une maquette en responsive HTML et CSS du site Réservia, outil de planification de vacances, de réservation d'hébergements et d'activités dans la ville de leur choix.
+Second projet de la formation "Développeur web" chez OpenClassroom. L'objectif de ce projet est d'intégrer une maquette en responsive HTML et CSS du site Booki, outil de planification de vacances, de réservation d'hébergements et d'activités dans la ville de leur choix.
 
 ## Les fonctionnalités du Site
 • Les usagers pourront rechercher des hébergements dans la ville de leur choix. Le champ de recherche est donc un champ de saisie, dont le texte peut être édité par l’usager. En revanche, à ce stade, le bouton de recherche ne sera pas fonctionnel.
