@@ -1,7 +1,7 @@
-#Reservia
+# Booki
 Second projet de la formation "Développeur web" chez OpenClassroom. L'objectif de ce projet est d'intégrer une maquette en responsive HTML et CSS du site Réservia, outil de planification de vacances, de réservation d'hébergements et d'activités dans la ville de leur choix.
 
-Les fonctionnalités du Site
+## Les fonctionnalités du Site
 • Les usagers pourront rechercher des hébergements dans la ville de leur choix. Le champ de recherche est donc un champ de saisie, dont le texte peut être édité par l’usager. En revanche, à ce stade, le bouton de recherche ne sera pas fonctionnel.
 
 • Chaque carte d’hébergement ou d’activité devra être cliquable dans son intégralité. Pour l’instant les liens seront vides.
@@ -10,7 +10,7 @@ Les fonctionnalités du Site
 
 • Dans le menu, les liens “Hébergements” et “Activités” sont des ancres qui doivent mener aux sections de la page.
 
-Les contraintes techniques
+## Les contraintes techniques
 • Deux maquettes : l’une desktop et l’autre mobile. Le site devra également être adapté aux tablettes.
 
 • Choisir le format le plus adapté par rapport à la résolution et au temps de chargement.
