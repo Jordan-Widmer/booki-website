@@ -2,33 +2,20 @@
 This is the second project of the "Web Developer" training program at OpenClassroom. The goal of this project is to integrate a responsive HTML and CSS mockup of the Booki website, a tool for vacation planning, booking accommodations, and activities in the city of their choice.
 
 ## Site Features
-• Users will be able to search for accommodations in the city of their choice. The search field is therefore an input field, the text of which can be edited by the user. However, at this stage, the search button will not be functional.
 
-• Each accommodation or activity card must be clickable in its entirety. For now, the links will be empty.
-
-• The filters will not be functional for this version, however, they must change appearance on hover.
-
-• In the menu, the links "Accommodations" and "Activities" are anchors that should lead to sections of the page.
+• Users can search for accommodations in their preferred city using the search field, although the search button is not functional at this stage.
+• Each accommodation or activity card is clickable, and links will be added in future versions.
+• The filters are non-functional but will change appearance on hover.
+• The "Accommodations" and "Activities" links in the menu are anchors that should lead to sections of the page.
 
 ## Technical Constraints
-• Two mockups: one for desktop and one for mobile. The site should also be adapted for tablets.
 
-• Choose the most suitable format based on resolution and loading time.
-
-• The icons come from the Font Awesome library. The colors of the charter are blue #0065FC, and its lighter version #DEEBFF, as well as gray for the background #F2F2F2.
-
-• The site's font is Raleway.
-
-• Do not use CSS frameworks or pre-compilers (use HTML and CSS)
-
-• Use Visual Studio Code, and its Live Server or Prettier plugins...
-
-• Integrate Font Awesome icons in HTML or CSS.
-
-• The code must use semantic tags and must not contain any errors or warnings in the W3C HTML and CSS validator.
-
+• The site should be responsive for desktop, mobile, and tablet devices.
+• Font Awesome library provides the icons, and the color scheme includes blue #0065FC, its lighter version #DEEBFF, and gray for the background #F2F2F2.
+• Raleway is the site's font.
+• CSS frameworks or pre-compilers are not allowed, and Visual Studio Code, Live Server or Prettier plugins should be used.
+• Font Awesome icons should be integrated into HTML or CSS.
+• Semantic tags must be used, and there should be no errors or warnings in the W3C HTML and CSS validator.
 • The site should be compatible with the latest versions of Chrome and Firefox.
-
-• Separate HTML and CSS and organize the rendering folder.
-
-• Version the code with Git and then deploy it on the GitHub Pages or GitLab page.
+• HTML and CSS should be separated and organized in the rendering folder.
+• Git versioning should be used, and the site deployed on GitHub Pages or GitLab page.
