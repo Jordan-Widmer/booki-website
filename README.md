@@ -1,34 +1,34 @@
 # Booki
-Second projet de la formation "Développeur web" chez OpenClassroom. L'objectif de ce projet est d'intégrer une maquette en responsive HTML et CSS du site Booki, outil de planification de vacances, de réservation d'hébergements et d'activités dans la ville de leur choix.
+This is the second project of the "Web Developer" training program at OpenClassroom. The goal of this project is to integrate a responsive HTML and CSS mockup of the Booki website, a tool for vacation planning, booking accommodations, and activities in the city of their choice.
 
-## Les fonctionnalités du Site
-• Les usagers pourront rechercher des hébergements dans la ville de leur choix. Le champ de recherche est donc un champ de saisie, dont le texte peut être édité par l’usager. En revanche, à ce stade, le bouton de recherche ne sera pas fonctionnel.
+## Site Features
+• Users will be able to search for accommodations in the city of their choice. The search field is therefore an input field, the text of which can be edited by the user. However, at this stage, the search button will not be functional.
 
-• Chaque carte d’hébergement ou d’activité devra être cliquable dans son intégralité. Pour l’instant les liens seront vides.
+• Each accommodation or activity card must be clickable in its entirety. For now, the links will be empty.
 
-• Les filtres ne seront pas fonctionnels pour cette version, en revanche, il faut qu’ils changent d’apparence au survol.
+• The filters will not be functional for this version, however, they must change appearance on hover.
 
-• Dans le menu, les liens “Hébergements” et “Activités” sont des ancres qui doivent mener aux sections de la page.
+• In the menu, the links "Accommodations" and "Activities" are anchors that should lead to sections of the page.
 
-## Les contraintes techniques
-• Deux maquettes : l’une desktop et l’autre mobile. Le site devra également être adapté aux tablettes.
+## Technical Constraints
+• Two mockups: one for desktop and one for mobile. The site should also be adapted for tablets.
 
-• Choisir le format le plus adapté par rapport à la résolution et au temps de chargement.
+• Choose the most suitable format based on resolution and loading time.
 
-• Les icônes proviennent de la bibliothèque Font Awesome. Les couleurs de la charte sont le bleu #0065FC, et sa version plus claire #DEEBFF ainsi que le gris pour le fond #F2F2F2.
+• The icons come from the Font Awesome library. The colors of the charter are blue #0065FC, and its lighter version #DEEBFF, as well as gray for the background #F2F2F2.
 
-• La police du site est Raleway.
+• The site's font is Raleway.
 
-• Ne pas utiliser de framework ou pré-compilateur CSS ( utiliser du HTML et CSS)
+• Do not use CSS frameworks or pre-compilers (use HTML and CSS)
 
-• Utiliser Visual Studio Code, et ses plugins Live Server ou Prettier…
+• Use Visual Studio Code, and its Live Server or Prettier plugins...
 
-• Intégrer les icônes Font Awesome en HTML ou CSS.
+• Integrate Font Awesome icons in HTML or CSS.
 
-• Le code devra utiliser les balises sémantiques et ne doit contenir aucune erreur ni alerte au validateur W3C HTML et CSS.
+• The code must use semantic tags and must not contain any errors or warnings in the W3C HTML and CSS validator.
 
-• Le site devra être compatible avec les dernières versions de Chrome et Firefox.
+• The site should be compatible with the latest versions of Chrome and Firefox.
 
-• Séparer le HTML et le CSS et organiser le dossier de rendu.
+• Separate HTML and CSS and organize the rendering folder.
 
-• Versionner le code avec Git puis le déployer sur la page GitHub Pages ou GitLab
+• Version the code with Git and then deploy it on the GitHub Pages or GitLab page.
